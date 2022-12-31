@@ -31,6 +31,9 @@ Modify it according to your needs and build your custom TIG stack:
 ```bash
 $ docker compose up -d
 ```
+# FOR OPENWRT 
+You have to configure collectd statistics on openwrt
+
 
 ### Known issues
 * `docker compose` command fails for non-root user
