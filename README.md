@@ -1,10 +1,7 @@
-# TIG stack (Telegraf/InfluxDB/Grafana)
+# TIG stack Home Lab Edition (Telegraf/InfluxDB/Grafana) for LINUX, OPENWRT
 [Telegraf](https://www.influxdata.com/time-series-platform/telegraf/) is a plugin-driven server agent for collecting and reporting metrics.  
 [InfluxDB](https://www.influxdata.com/time-series-platform/influxdb/) handle massive amounts of time-stamped information.  
-[Grafana](https://grafana.com/) is an open platform for beautiful analytics and monitoring.  
-
-![System dashboard](./docs/system_dashboard.png?raw=true "System dashboard")
-![Docker dashboard](./docs/docker_dashboard.png?raw=true "Docker dashboard")
+[Grafana](https://grafana.com/) is an open platform for beautiful analytics and monitoring.
 
 ## Requirements
 As docker images, TIG stack needs:
