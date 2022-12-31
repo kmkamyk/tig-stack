@@ -32,7 +32,7 @@ Modify it according to your needs and build your custom TIG stack:
 $ docker compose up -d
 ```
 ## FOR OPENWRT 
-You have to configure collectd statistics on openwrt
+You have to configure collectd statistics on router
 
 
 ### Known issues
