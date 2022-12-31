@@ -6,6 +6,7 @@ services:
         container_name: ${CONTAINER_PREFIX}_influxdb
         ports:
             - ${INFLUXDB_PORT}:${INFLUXDB_PORT}
+            - ${INFLUXDB_PORTD}:${INFLUXDB_PORTD}/udp
         volumes:
             - /var/lib/influxdb:/var/lib/influxdb
         restart: always
